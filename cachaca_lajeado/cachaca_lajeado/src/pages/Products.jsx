@@ -14,14 +14,14 @@ const products = [
       name: "Cachaça Prata",
       description: "Pura e cristalina, ideal para drinks e caipirinhas.",
       price: "R$ 45,00",
-      image: "/image/cachaca artesanal.jpg",
+      image: "/image/cachaca-artesanal.jpg",
     },
     {
       id: 3,
       name: "Cachaça Premium",
       description: "Blend especial com notas amadeiradas e toque frutado.",
       price: "R$ 65,00",
-      image: "/image/chacaça lageado.jpg",
+      image: "/image/cachaca-lageado.jpg",
     },
   ];
 
@@ -34,31 +34,57 @@ const Products = () =>
 
 <div className="container mx-auto p-6">
     <div className="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
-        <h1 className="text-3xl font-bold text-green-700">Nossos Produtos</h1>
+        <h1 className="text-3xl font-bold text-green-700">Produto Destaque</h1>
         <div className="mt-6 flex flex-col md:flex-row items-center justify-center">
 
-            <img src="/image/cachaça.jpg" alt="cachaça lageado"
+            <img src={products[0].image} alt={products[0].name}
              className="w-64 h-64 object-cover rounded-lg shadow-md" />
 
              <div className="md:ml-6 text-center md:text-left">
 
-                <h2 className="text-2xl font-semibold text-gray-800">Produto</h2>
-                <p className="text-gray-600 mt-2">Descrição</p>
-                <p className="text-xl font-bold text-green-700 mt-4">Preço</p>
+                <h2 className="text-2xl font-semibold text-gray-800">{products[0].name}</h2>
+                <p className="text-gray-600 mt-2">{products[0].description}</p>
+                <p className="text-xl font-bold text-green-700 mt-4">{products[0].price}</p>
 
                 <button className="mt-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600">
                     Ver Detalhes
                 </button>
 
                 
-
              </div>
         </div>
     </div>
+
+    
+    <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-4 text-center">Mais Produtos</h2>
+    
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {products.slice(0).map((product) => (
+
+            <div key={product.id} className="bg-white p-4 rounded-lg shadow-lg text-center">
+
+                <img src={product.image} alt={product.name}
+                className="w-48 h-48 object-cover mx-auto rounded-lg" />
+
+                <h3 className="text-xl font-semibold text-gray-800 mt-2">{product.name}</h3>
+                <p className="text-gray-600 mt-1">{product.price}</p>
+
+                <button className="mt-3 bg-blue-500 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-600">
+                    Ver Detalhes
+                </button>
+
+            </div>
+        ))}
+    </div>
+
+    
+
+    
+    
 </div>
 
-        <div className="flex flex-col min-h-screen"><Footer /></div>  
-    </div>
+    <Footer /> 
+</div>
     
     )
 }

@@ -23,7 +23,7 @@ especiais ou presentear alguém querido. Nossa missão é valorizar a cultura da
 
 Venha conhecer nossos produtos e descubra o verdadeiro sabor da cachaça artesanal!
         </p>
-        <div className="flex flex-col min-h-screen"><Footer /></div>  
+        <Footer /> 
      </div>
     );
   };

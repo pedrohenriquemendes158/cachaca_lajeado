@@ -4,7 +4,7 @@ const Footer = () => {
     return (
 <footer className="w-full bg-gray-900 text-white py-6">
     <div className="flex flex-col items-center">
-        <h2 className="text-lg font-bold mb-4">Cachaça Lajeado</h2>
+        <p className="text-lg mb-4">&copy;2025 Todos os direitos reservados</p>
         <div className="flex space-x-6">
 
             <a href="https://wa.me/seunumero"
@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
 
     </div>
-</footer>
+    </footer>
 
     )
 }
