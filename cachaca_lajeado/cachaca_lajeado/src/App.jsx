@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Products from './pages/Products';
 import Footer from './components/Footer';
+import FloatingButton from './components/FloatingButton';
 
 
 function App() {

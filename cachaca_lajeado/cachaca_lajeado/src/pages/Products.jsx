@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer";
+import FloatingButton from "../components/FloatingButton";
 
 const products = [
     {
@@ -31,6 +32,7 @@ const Products = () =>
         
     <div className="">
         <Header />
+        <FloatingButton />
 
 <div className="container mx-auto p-6">
     <div className="bg-gray-100 p-6 rounded-lg shadow-lg text-center">

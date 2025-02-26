@@ -1,11 +1,13 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer";
+import FloatingButton from "../components/FloatingButton";
 
 const Contact = () => {
     
 return(
 <div className="flex flex-col items-center justify-center">
   <Header />
+  <FloatingButton />
  
     <h1 className="text-3xl font-bold mb-6">Fale Conosco</h1>
     <form className="bg-white p-6 rounded-lg shadow-lg w-full max-w-lg">
