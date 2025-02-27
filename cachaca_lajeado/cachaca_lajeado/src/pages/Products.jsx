@@ -2,7 +2,9 @@ import Header from "../components/Header"
 import Footer from "../components/Footer";
 import FloatingButton from "../components/FloatingButton";
 
+
 const products = [
+    
     {
       id: 1,
       name: "Cachaça Ouro",
