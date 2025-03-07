@@ -26,6 +26,27 @@ const products = [
       price: "R$ 65,00",
       image: "/image/cachaca-lageado.jpg",
     },
+    {
+        id: 4,
+        name: "Cachaça Premium",
+        description: "Blend especial com notas amadeiradas e toque frutado.",
+        price: "R$ 65,00",
+        image: "/image/cachaca-lageado.jpg",
+      },
+      {
+        id: 5,
+        name: "Cachaça Premium",
+        description: "Blend especial com notas amadeiradas e toque frutado.",
+        price: "R$ 65,00",
+        image: "/image/cachaca-lageado.jpg",
+      },
+      {
+        id: 6,
+        name: "Cachaça Premium",
+        description: "Blend especial com notas amadeiradas e toque frutado.",
+        price: "R$ 65,00",
+        image: "/image/cachaca-lageado.jpg",
+      },
   ];
 
 const Products = () =>
@@ -50,7 +71,9 @@ const Products = () =>
                 <p className="text-gray-600 mt-2">{products[0].description}</p>
                 <p className="text-xl font-bold text-green-700 mt-4">{products[0].price}</p>
 
-                <button className="mt-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600">
+                <button className="mt-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow
+                 transition delay-150 duration-300 ease-in-out 
+                hover:-translate-y-1 hover:scale-110 hover:bg-green-800">
                     Ver Detalhes
                 </button>
 
@@ -73,7 +96,8 @@ const Products = () =>
                 <h3 className="text-xl font-semibold text-gray-800 mt-2">{product.name}</h3>
                 <p className="text-gray-600 mt-1">{product.price}</p>
 
-                <button className="mt-3 bg-blue-500 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-600">
+                <button className="mt-3 bg-blue-500 text-white px-4 py-2 rounded-lg shadow transition 
+                delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-600">
                     Ver Detalhes
                 </button>
 
