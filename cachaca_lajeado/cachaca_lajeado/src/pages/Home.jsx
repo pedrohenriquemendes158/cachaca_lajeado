@@ -197,7 +197,7 @@ Descubra o sabor da tradição e da excelência!
     </div>
 </article>
 
-        <h3 className="text-3xl ">Algumas Receitas!</h3>
+        <h3 className="text-3xl ">Receitas</h3>
 
     </motion.section>
      </motion.section>
