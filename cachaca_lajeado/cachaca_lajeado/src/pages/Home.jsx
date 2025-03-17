@@ -199,6 +199,40 @@ Descubra o sabor da tradição e da excelência!
 
         <h3 className="text-3xl ">Receitas</h3>
 
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-white rounded-lg shadow-lg p-4 text-center">
+
+                <img src="image/caipirinha.jpg" alt="Cachaca"
+                className="w-48 h-48 object-cover mx-auto rounded-lg" />
+
+                <h3 className="text-xl font-semibold text-gray-800 mt-2">Caipirinha</h3>
+                <p className="text-gray-600 mt-1">•1 limão taiti <br/> 
+                •2 colheres (sopa) de açúcar <br/> •50ml de cachaça <br/> •Gelo a gosto</p>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg p-4 text-center">
+                <img src="image/maria-bonita.jpg" alt="Cachaca"
+                className="w-48 h-48 object-cover mx-auto rounded-lg" />
+
+                <h3 className="text-xl font-semibold text-gray-800 mt-2">Maria Bonita</h3>
+                <p className="text-gray-600 mt-1">•50ml de cachaça <br/> •30ml de licor de maracujá <br/> 
+                •20ml de suco de limão <br/> •10ml de mel <br/> •Gelo a gosto <br/> •1 fatia de laranja para decorar</p>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg p-4 text-center">
+
+                <img src="image/jardineira.jpg" alt="Cachaca"
+                className="w-48 h-48 object-cover mx-auto rounded-lg" />
+
+                <h3 className="text-xl font-semibold text-gray-800 mt-2">Jardineira</h3>
+                <p className="text-gray-600 mt-1">•50ml de cachaça <br/> •30ml de suco de abacaxi <br/> 
+                •10ml de suco de limão <br/> •15ml de xarope de gengibre <br/> •Gelo a gosto <br/> 
+                •Ramos de hortelã para decorar</p>
+            </div>
+
+            </div>
+        
+
     </motion.section>
      </motion.section>
 

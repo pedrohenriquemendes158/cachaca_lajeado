@@ -24,7 +24,22 @@ especiais ou presentear alguém querido. Nossa missão é valorizar a cultura da
  experiência para os nossos clientes.
 
 Venha conhecer nossos produtos e descubra o verdadeiro sabor da cachaça artesanal!
+
+
+Nossa história começa no coração do Brasil, onde a cana-de-açúcar é 
+cultivada com dedicação e transformada em uma bebida rica em sabor e autenticidade. 
+Cada garrafa de Cachaça Lajeado carrega consigo o sabor inconfundível da tradição e o respeito pelo processo artesanal.
+
+Trabalhamos para levar até você uma cachaça de excelência, seja para degustar momentos 
+especiais ou presentear alguém querido. Nossa missão é valorizar a cultura da cachaça e proporcionar a melhor
+ experiência para os nossos clientes.
+
+Venha conhecer nossos produtos e descubra o verdadeiro sabor da cachaça artesanal!
+
         </p>
+
+
+        
         <Footer /> 
      </div>
     );
