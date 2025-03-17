@@ -90,7 +90,7 @@ Descubra o sabor da tradição e da excelência!
                
                 name: "Cachaça Premium",
                 image:"/image/cachaca.jpg",
-                description:"Envelhecida em barris de carvalho",
+                description:"Envelhecida em barris de carvalho Uma cachaça envelhecida, de sabor refinado e aroma amadeirado, com notas suaves de baunilha e especiarias. Perfeita para degustação, trazendo a harmonia entre tradição e tempo.",
             },
 
             {
@@ -199,7 +199,7 @@ Descubra o sabor da tradição e da excelência!
 
         <h3 className="text-3xl ">Receitas</h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
             <div className="bg-white rounded-lg shadow-lg p-4 text-center">
 
                 <img src="image/caipirinha.jpg" alt="Cachaca"
