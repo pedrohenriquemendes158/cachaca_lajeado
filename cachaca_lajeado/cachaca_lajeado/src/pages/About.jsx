@@ -86,6 +86,7 @@ apreciando o encontro perfeito entre o destilado e o tempo.</p>
     </div>
 </article>
 
+
         <Footer /> 
      </div>
     );

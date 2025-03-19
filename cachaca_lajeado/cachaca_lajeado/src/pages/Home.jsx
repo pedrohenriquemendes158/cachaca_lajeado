@@ -7,6 +7,7 @@ import "swiper/css"
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { motion } from "framer-motion";
+import { Routes, Route, Link } from 'react-router-dom';
 
 
 
@@ -33,18 +34,32 @@ const Home = () => {
 
       <SwiperSlide>
 
-        <div className="h-full bg-cover bg-center flex items-center justify-center text-white text-center"
-             style={{backgroundImage:"url('/image/banner.jpg')"}}>
-
+        <div className="h-full bg-cover bg-center flex items-center  text-white"
+             style={{backgroundImage:"url('/image/banner.jpg')", height:"500px"}}
+             >
+<div className="w-1/2 pl-10 -mt-40">
             <motion.h1 
 
             initial={{opacity:0, y: 50}}
             animate={{opacity: 1, y: 0}}
             transition={{duration: 2}}
-            className="text-4xl font-bold bg-opacity-50 p-4 rounded-lg"
+            className="text-4xl  bg-opacity-50 p-4 rounded-lg"
             >
                 Bem-Vindo à Cachaça Lajeado
         </motion.h1>
+
+        <Link to="/products">
+        <motion.button
+        initial={{opacity:0, y: 30}}
+        animate={{opacity: 1, y: 0}}
+        transition={{duration: 1.5, delay:0.5}}
+        className="mt-4 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md
+                    transition-all duration-300"
+                    >
+                        Ver Produtos
+                    </motion.button>
+        </Link>
+</div>
         </div>
         </SwiperSlide>
      </Swiper>
@@ -96,14 +111,14 @@ Descubra o sabor da tradição e da excelência!
             {
                 
                 name: "Cachaça Ouro",
-                image:"/image/cachaca.jpg",
+                image:"/image/sono tranquilo.jpg",
                 description:"Envelhecida em barris de carvalho. Teor alcoólico 40% | Sabor suave e refrescante",
             },
 
             {
                 
                 name: "Cachaça Ouro",
-                image:"/image/cachaca.jpg",
+                image:"/image/cachaca-artesanal.jpg",
                 description:"Envelhecida em barris de carvalho",
             },
         ].map((product,index) => (
@@ -173,26 +188,38 @@ Descubra o sabor da tradição e da excelência!
         
 <article className="container mx-auto px-4 py-10">
     <div className="relative">
+        
     <img  
-    src="/image/cachaca.jpg" 
+    src="/image/amburana.jpg" 
     alt="Cachaça"
     className="fixed-left w-1/4 rounded-lg shadow-lg ml-4" 
     />
-    <p className="clear-left mt-6 text-center text-lg text-gray-700">   A Cachaça Lajeado é produzida em um ambiente privilegiado, cercado por montanhas, 
-            riachos cristalinos e uma vegetação exuberante. Nossa destilaria combina tradição e 
-            tecnologia para garantir a mais alta qualidade, respeitando o tempo de maturação e 
-            mantendo os aromas naturais da cana-de-açúcar.</p>
+    
+     <h4 className="clear-left mt-6 text-center text-lg text-black">Envelhecimento com Amburana</h4>
+    <p className="clear-left mt-6 text-center text-lg text-gray-700">
+        A amburana é conhecida por transferir uma doçura natural para a cachaça, que pode lembrar o sabor de mel ou 
+        baunilha. Em resumo, a madeira de amburana no envelhecimento da cachaça proporciona uma combinação de doçura, 
+        especiarias e frutas secas, além de uma complexidade amadeirada e um toque tostado ou defumado, que tornam o 
+        sabor do destilado mais suave e encorpado.
+        Utilizamos barris de Amburana no processo de envelhecimento da linha Gold das cachaças Lajeado. Junto com um 
+        ambiente escuro e úmido proporciona o local perfeito para um excelente envelhecimento</p>
 
 <img  
-    src="/image/cachaca.jpg" 
+    src="/image/europeu.jpg" 
     alt="Cachaça"
     className="float-right w-1/3 rounded-lg shadow-lg ml-4" 
     />
 
-    <p className="clear-right mt-6 text-center text-lg text-gray-700"> A Cachaça Lajeado é produzida em um ambiente privilegiado, cercado por montanhas, 
-            riachos cristalinos e uma vegetação exuberante. Nossa destilaria combina tradição e  e 
-            tecnologia para garantir a mais alta qualidade, respeitando o tempo de maturação e 
-            mantendo os aromas naturais da cana-de-açúcar.
+    <h4 className="clear-right mt-6 text-center text-lg text-black">Envelhecimento com Carvalho Europeu</h4>
+    <p className="clear-right mt-6 text-center text-lg text-gray-700">
+
+O envelhecimento em carvalho europeu confere à cachaça notas amadeiradas, de baunilha, especiarias como canela e cravo,
+ além de frutas secas e frutas maduras, 
+com uma textura mais suave e uma complexidade maior. O toque caramelado e a presença de café e chocolate são 
+características adicionais que podem ser encontradas dependendo do tempo e do processo de envelhecimento.
+
+O uso do carvalho europeu em nossa linha Gold garante uma cachaça de sabor suave, complexo e sofisticado, 
+que proporciona uma experiência única e inesquecível. Um verdadeiro clássico da cachaçaria de alta qualidade
              </p>
     </div>
 </article>

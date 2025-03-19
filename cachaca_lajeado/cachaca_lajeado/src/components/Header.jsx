@@ -7,7 +7,7 @@ const Header = () => {
 <header className="bg-green-600 text-white  w-full  py-4 px-6 shadow-md  ">
     
 <div className=" max-w-7xl max-auto flex justify-between items-center">
-    <h1 className="text-2xl font-bold">Cachaça Lajeado</h1>
+    <h1 className="text-2xl font-bold">Cachaça Lajeado-PR</h1>
     
     <nav>
         <ul className="flex space-x-4">
