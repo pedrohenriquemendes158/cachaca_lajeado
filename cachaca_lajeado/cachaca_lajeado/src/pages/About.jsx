@@ -22,26 +22,26 @@ const About = () => {
          Produzimos nossas cachaças com cuidado artesanal, utilizando os melhores ingredientes 
         e seguindo técnicas passadas de geração em geração.
 
-Nossa história começa no coração do Brasil, onde a cana-de-açúcar é 
-cultivada com dedicação e transformada em uma bebida rica em sabor e autenticidade. 
-Cada garrafa de Cachaça Lajeado carrega consigo o sabor inconfundível da tradição e o respeito pelo processo artesanal.
+        Nossa história começa no coração do Brasil, onde a cana-de-açúcar é 
+        cultivada com dedicação e transformada em uma bebida rica em sabor e autenticidade. 
+        Cada garrafa de Cachaça Lajeado carrega consigo o sabor inconfundível da tradição e o respeito pelo processo artesanal.
 
-Trabalhamos para levar até você uma cachaça de excelência, seja para degustar momentos 
-especiais ou presentear alguém querido. Nossa missão é valorizar a cultura da cachaça e proporcionar a melhor
- experiência para os nossos clientes.
+        Trabalhamos para levar até você uma cachaça de excelência, seja para degustar momentos 
+        especiais ou presentear alguém querido. Nossa missão é valorizar a cultura da cachaça e proporcionar a melhor
+        experiência para os nossos clientes.
 
-Venha conhecer nossos produtos e descubra o verdadeiro sabor da cachaça artesanal!
+        Venha conhecer nossos produtos e descubra o verdadeiro sabor da cachaça artesanal!
 
 
-Nossa história começa no coração do Brasil, onde a cana-de-açúcar é 
-cultivada com dedicação e transformada em uma bebida rica em sabor e autenticidade. 
-Cada garrafa de Cachaça Lajeado carrega consigo o sabor inconfundível da tradição e o respeito pelo processo artesanal.
+        Nossa história começa no coração do Brasil, onde a cana-de-açúcar é 
+        cultivada com dedicação e transformada em uma bebida rica em sabor e autenticidade. 
+        Cada garrafa de Cachaça Lajeado carrega consigo o sabor inconfundível da tradição e o respeito pelo processo artesanal.
 
-Trabalhamos para levar até você uma cachaça de excelência, seja para degustar momentos 
-especiais ou presentear alguém querido. Nossa missão é valorizar a cultura da cachaça e proporcionar a melhor
- experiência para os nossos clientes.
+        Trabalhamos para levar até você uma cachaça de excelência, seja para degustar momentos 
+        especiais ou presentear alguém querido. Nossa missão é valorizar a cultura da cachaça e proporcionar a melhor
+        experiência para os nossos clientes.
 
-Venha conhecer nossos produtos e descubra o verdadeiro sabor da cachaça artesanal!
+        conhecer nossos produtos e descubra o verdadeiro sabor da cachaça artesanal!
 
         </p>
 
@@ -78,18 +78,18 @@ Venha conhecer nossos produtos e descubra o verdadeiro sabor da cachaça artesan
     />
     <p className="clear-left mt-6 text-center text-lg text-gray-700">O Envelhecimento da Cachaça
 
-Em meio ao aroma amadeirado e à penumbra de tonéis cuidadosamente dispostos, 
-acontece a magia do envelhecimento da cachaça. 
-Os barris, feitos de madeiras nobres como carvalho, amburana e bálsamo, 
-são responsáveis por transformar a bebida, 
-suavizando seu sabor e agregando notas complexas de baunilha, 
-frutas secas e especiarias.
+    Em meio ao aroma amadeirado e à penumbra de tonéis cuidadosamente dispostos, 
+    acontece a magia do envelhecimento da cachaça. 
+    Os barris, feitos de madeiras nobres como carvalho, amburana e bálsamo, 
+    são responsáveis por transformar a bebida, 
+    suavizando seu sabor e agregando notas complexas de baunilha, 
+    frutas secas e especiarias.
 
-Cada gota repousa por anos, absorvendo lentamente as essências da madeira,
- enquanto o tempo imprime sua assinatura na coloração dourada e na textura encorpada. O resultado é uma cachaça refinada, equilibrada e digna dos paladares mais exigentes.
+    Cada gota repousa por anos, absorvendo lentamente as essências da madeira,
+    enquanto o tempo imprime sua assinatura na coloração dourada e na textura encorpada. O resultado é uma cachaça refinada, equilibrada e digna dos paladares mais exigentes.
 
-Degustar uma cachaça envelhecida é viajar pela tradição e pelo cuidado artesanal de sua produção, 
-apreciando o encontro perfeito entre o destilado e o tempo.</p>
+    Degustar uma cachaça envelhecida é viajar pela tradição e pelo cuidado artesanal de sua produção, 
+    apreciando o encontro perfeito entre o destilado e o tempo.</p>
     </div>
 </article>
 
