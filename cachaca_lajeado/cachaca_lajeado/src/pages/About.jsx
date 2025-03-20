@@ -6,11 +6,18 @@ import FloatingButton from "../components/FloatingButton";
 const About = () => {
     return (
      <div className="">
+
       <Header />
       <FloatingButton />
-      
-        <h1 className="text-4xl font-bold mb-8">Sobre Nós</h1>
-        <p className="text-lg">Conheça a História da cachaça
+      <h1 className="text-4xl font-semibold mb-8">Sobre Nós</h1>
+
+      <div className="md: w-1/1 flex justify-center mt-10" >
+
+      <img src="image/fabrica2.jpg" alt="Fabrica" className="w-full rounded-lg shadow-lg max-w-[500px]" />
+
+      </div>
+        
+        <p className="text-lg mt-10">Conheça a História da cachaça
         Bem-vindo à Cachaça Lajeado, onde tradição e qualidade se encontram para oferecer a você uma experiência única.
          Produzimos nossas cachaças com cuidado artesanal, utilizando os melhores ingredientes 
         e seguindo técnicas passadas de geração em geração.

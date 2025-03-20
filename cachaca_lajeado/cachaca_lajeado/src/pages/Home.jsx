@@ -71,7 +71,7 @@ const Home = () => {
     transition={{duration:2}}
     viewport={{once:true}}
     className="container mx-auto py-10 px-4 text-center">
-        <h2 className="text-3xl font-bold">Descubra o sabor da cachaça Lajeado </h2>
+        <h2 className="text-3xl font-semibold">Descubra o sabor da cachaça Lajeado </h2>
         <p className="text-gray-600 mt-4">
             Produzida com tradição e qualidade, nossa cachaça traz o melhor do sabor brasileiro.
             No coração das montanhas, onde a natureza preserva seus segredos mais valiosos, nasce a Cachaça Lajeado. Produzida com maestria e respeito às tradições, cada gota carrega a essência do nosso terroir, refletindo o cuidado artesanal em cada etapa do processo.
